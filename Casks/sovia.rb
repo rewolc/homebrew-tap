@@ -9,6 +9,12 @@ cask "sovia" do
 
   app "Sovia.app"
 
+  postflight do
+    system_command "/usr/bin/xattr",
+                   args: ["-dr", "com.apple.quarantine", "#{appdir}/Sovia.app"],
+                   sudo: false
+  end
+
   zap trash: [
     "~/Library/Application Support/Sovia",
     "~/Library/Logs/Sovia",

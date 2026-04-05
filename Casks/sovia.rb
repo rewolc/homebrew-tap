@@ -1,6 +1,6 @@
 cask "sovia" do
-  version "0.4.0"
-  sha256 "8a4b9907c91cffe0586fbc3670e3e4c8c1412f6584a38168608f0fdfac6ca9de"
+  version "0.4.1"
+  sha256 "4c578977ead036d530d2bc113978fd28b7c7d5aff6df2b9588814e08eaf493ff"
 
   url "https://github.com/rewolc/sovia-releases/releases/download/v#{version}/Sovia-mac-arm64.dmg"
   name "Sovia"

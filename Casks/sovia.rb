@@ -1,8 +1,8 @@
 cask "sovia" do
-  version "0.4.3"
-  sha256 "4c26c26534715c5fe9fd71a27ce5245028083951f5a2425c421c2be57c1eca7f"
+  version "0.4.5"
+  sha256 "00d6c3b6b7d4b5d557be9d88a70580d9a5cd21253b3313a56b44b91581fd25b8"
 
-  url "https://github.com/rewolc/sovia-releases/releases/download/v0.4.3/Sovia-mac-arm64.dmg"
+  url "https://github.com/rewolc/sovia-releases/releases/download/v0.4.5/Sovia-mac-arm64.dmg"
   name "Sovia"
   desc "Desktop AI copilot for technical interviews"
   homepage "https://sovia.space"
